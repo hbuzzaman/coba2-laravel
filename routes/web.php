@@ -30,7 +30,7 @@ Route::get('/about', function () {
     ]);
     // return "Halaman ABOUT";
 });
-
+// route get post banyak
 Route::get('/posts', [PostController::class, 'index']);
 // halaman single post memanggil fungsi show pada controller PostController
 Route::get('posts/{slug}', [PostController::class, 'show']);
