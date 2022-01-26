@@ -6,8 +6,10 @@
 
     <article>
         <h1 class="mb-5">
+            {{-- kurung {{ }} =untuk htmlspecialchars <?php echo ?>--}}
             {{ $post->title }}
         </h1>
+        {{-- php echo tanpa htmlspecialchars--}}
         {!! $post->body !!}
     </article>
 
