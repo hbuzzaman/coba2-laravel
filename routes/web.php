@@ -34,3 +34,4 @@ Route::get('/about', function () {
 Route::get('/posts', [PostController::class, 'index']);
 // halaman single post memanggil fungsi show pada controller PostController
 Route::get('posts/{slug}', [PostController::class, 'show']);
+// Route::get('posts/{slug}', [PostController::class, 'show']);
