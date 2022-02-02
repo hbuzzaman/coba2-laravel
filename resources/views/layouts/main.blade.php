@@ -12,6 +12,7 @@
 
     <title>BLOG | {{ $title }}</title>
   </head>
+  
   <body>
 
     {{-- directive --}}
