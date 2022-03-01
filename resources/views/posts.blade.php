@@ -2,7 +2,6 @@
 @extends('layouts.main')
 
 @section('container')
-
     <h1 class="mb-5">Halaman Blog Posts</h1>
 
     @foreach ($posts as $post)
